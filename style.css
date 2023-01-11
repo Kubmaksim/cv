@@ -1,24 +1,41 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(20, 24, 28);
 
 }
 
 .about{
     background-color: antiquewhite;
     position: absolute;
-    width: 370px;
-    height: 1319px;
-    left: 40px;
-    top: 40px;
+    width: 270px;
+    height: 100%;
+    left: 10px;
+    right: 1000px;
+    top: 10px;
 }
 .information{
-
     position: absolute;
- 
-    height: 1319px;
-    left: 440px;
-    top: 40px;
-
+    height: 100%;
+    left: 280px;
+    top: 10px;
+    right: 10px;
     background: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+.about_me{
+    background-color: beige;
+    position: absolute;
+    color: rgb(162, 1, 1);
+    left:15%;
+    top: 17%;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.description{
+    background-color: aquamarine;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-family: 'Open Sans', sans-serif;
 }
