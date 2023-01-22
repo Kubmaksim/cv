@@ -7,15 +7,21 @@ body{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.photo{
+    position: absolute;
+    overflow: hidden;
+    width: 245px;
+    margin-top: -20px;
+    margin-left: -36px;
+}
+
 .name{
     background: linear-gradient(#048BC2 ,#203944);
-
-    font-size: 55px;
     position: absolute;
-    margin-left: 266px;
+    margin-left: 245px;
     margin-right: 0px;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 200px;
     padding-left: 30%;
     padding-right: 250px;
 }
@@ -23,6 +29,7 @@ body{
 .inf{
     margin-left: -40%;
     margin-right: 30%;
+    font-size: 55px;
 }
 
 .information{
