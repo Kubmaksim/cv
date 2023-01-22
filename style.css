@@ -7,18 +7,34 @@ body{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.name{
+    background: linear-gradient(#048BC2 ,#203944);
+
+    font-size: 55px;
+    position: absolute;
+    margin-left: 266px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 30%;
+    padding-right: 250px;
+}
+
+.inf{
+    margin-left: -40%;
+    margin-right: 30%;
+}
+
 .information{
     position: absolute;
     background-color: antiquewhite;
     margin-top: 20%;
-    margin-left: 30%;
-    
+    margin-left: 35%;
 }
-
 
 .about{
     position: absolute;
-    background-color: #212834;
+    background:linear-gradient(to left, #212834, #6a6a6c);
     padding-bottom: 35%;
     padding-top: 20px;
     padding-left: 3%;
