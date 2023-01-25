@@ -7,43 +7,91 @@ body{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.about{
+    position: absolute;
+    background:linear-gradient(to left, #212834, #6a6a6c);
+    padding-bottom: 35%;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0px;
+}
+
 .photo{
+    float:left;
+    overflow:hidden; /* this is important */
+    position:relative; /* this is important too */
+    border:0px solid #ccc;
+    width: 245px;
+    height:260px;
+    }
+
+.photo img{
+    position:absolute;
+    width: 360px;
+    top:-70px;
+    left:-100px;
+    }
+
+/* .photo{
     position: absolute;
     overflow: hidden;
+    position: relative;
+    border: 1px solid;
+    height: 200px;
     width: 245px;
     margin-top: -20px;
     margin-left: -36px;
-}
+} */
 
 .name{
-    background: linear-gradient(#048BC2 ,#203944);
+    background: linear-gradient(#14a3dc ,#284e5f);
     position: absolute;
     margin-left: 245px;
     margin-right: 0px;
     padding-top: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 151px;
     padding-left: 30%;
     padding-right: 250px;
 }
 
 .inf{
+    text-decoration: none;
+    border-bottom: 2px #000000 solid;
     margin-left: -40%;
     margin-right: 30%;
     font-size: 55px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.developer{
+    position: absolute;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .information{
     position: absolute;
-    background-color: antiquewhite;
-    margin-top: 20%;
+    font-size: 20px;
+
+    margin-top: 30%;
     margin-left: 35%;
 }
 
-.about{
+.contact{
     position: absolute;
-    background:linear-gradient(to left, #212834, #6a6a6c);
-    padding-bottom: 35%;
-    padding-top: 20px;
-    padding-left: 3%;
-    padding-right: 30px;
+    margin-top: 330px;
+    margin-left: 20px;
+}
+
+.con{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-bottom: 130px;
+    margin-left: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.telega{
+    color: rgb(255, 255, 255);
 }
