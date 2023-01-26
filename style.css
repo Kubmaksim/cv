@@ -32,24 +32,13 @@ body{
     left:-100px;
     }
 
-/* .photo{
-    position: absolute;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid;
-    height: 200px;
-    width: 245px;
-    margin-top: -20px;
-    margin-left: -36px;
-} */
-
 .name{
     background: linear-gradient(#14a3dc ,#284e5f);
     position: absolute;
     margin-left: 245px;
     margin-right: 0px;
     padding-top: 40px;
-    padding-bottom: 151px;
+    padding-bottom: 125px;
     padding-left: 30%;
     padding-right: 250px;
 }
@@ -57,17 +46,21 @@ body{
 .inf{
     text-decoration: none;
     border-bottom: 2px #000000 solid;
-    margin-left: -40%;
-    margin-right: 30%;
-    font-size: 55px;
+    margin-left: -50%;
+    margin-right: 0;
+    font-size: 75px;
     font-family: 'Overpass', sans-serif;
+}
+
+.skil{
+    position: absolute;
 }
 
 .developer{
     position: absolute;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 30px;
+    padding-top: 10px;
+    margin-left: -35px;
+    font-size: 45px;
 }
 
 .information{
