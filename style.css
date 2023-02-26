@@ -1,16 +1,16 @@
 body{
     position: absolute;
     width: 1200px;
-    height: 819px;
+    height: 700px;
     left: 30px;
     top: 20px;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.831);
 }
 
 .about{
     position: absolute;
     background:linear-gradient(to left, #212834, #6a6a6c);
-    padding-bottom: 35%;
+    padding-bottom: 440px;
     padding-top: 0px;
     padding-left: 0;
     padding-right: 0px;
@@ -68,8 +68,8 @@ body{
 
 .skil{
     position: absolute;
-    top: 60%;
-    left: 40px;
+    top: 70%;
+    left: 30px;
 }
 
 .developer{
@@ -82,7 +82,7 @@ body{
 .information{
     position: absolute;
     font-size: 20px;
-    margin-top: 30%;
+    margin-top: 27%;
     margin-left: 30%;
     margin-right: 10%;
 }
@@ -90,7 +90,7 @@ body{
 .contact{
     position: absolute;
     margin-top: 290px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .con{
@@ -141,3 +141,22 @@ li span{
     color: #ffffff;
 }
 
+.l{
+    color:#000000;
+}
+
+.project {
+    position: absolute;
+    top:75%;
+    left: 30%;
+}
+
+.Progects{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.experience {
+    font-size: 17px;
+    color: #025a41;
+}
